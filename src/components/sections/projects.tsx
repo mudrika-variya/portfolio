@@ -39,7 +39,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-16 sm:py-24">
+    <section id="projects" className="py-16 sm:py-24 bg-card/40">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Featured Projects</h2>
@@ -47,7 +47,7 @@ export default function Projects() {
         </div>
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project) => (
-            <Card key={project.title} className="group overflow-hidden rounded-xl border border-border/50 bg-card/60 backdrop-blur-sm shadow-md transition-all duration-300 hover:border-primary/50 hover:shadow-glow-accent">
+            <Card key={project.title} className="group overflow-hidden rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm shadow-md transition-all duration-300 hover:border-primary/50 hover:shadow-glow-accent">
               <div className="relative h-60 overflow-hidden">
                 {project.image && (
                   <Image

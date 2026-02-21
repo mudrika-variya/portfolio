@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-16 sm:py-24">
+    <section id="contact" className="py-16 sm:py-24 bg-card/40">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Get in Touch</h2>
@@ -41,19 +41,19 @@ export default function Contact() {
             <Input 
               type="text" 
               placeholder="Your Name" 
-              className="bg-card focus-visible:ring-primary focus-visible:ring-2 focus-visible:shadow-glow-accent"
+              className="bg-background focus-visible:ring-primary focus-visible:ring-2 focus-visible:shadow-glow-accent"
               aria-label="Your Name"
             />
             <Input 
               type="email" 
               placeholder="Your Email" 
-              className="bg-card focus-visible:ring-primary focus-visible:ring-2 focus-visible:shadow-glow-accent"
+              className="bg-background focus-visible:ring-primary focus-visible:ring-2 focus-visible:shadow-glow-accent"
               aria-label="Your Email"
             />
             <Textarea 
               placeholder="Your Message" 
               rows={5} 
-              className="bg-card focus-visible:ring-primary focus-visible:ring-2 focus-visible:shadow-glow-accent"
+              className="bg-background focus-visible:ring-primary focus-visible:ring-2 focus-visible:shadow-glow-accent"
               aria-label="Your Message"
             />
             <Button type="submit" size="lg" className="w-full shadow-glow-primary">Send Message</Button>
