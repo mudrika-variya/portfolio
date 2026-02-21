@@ -20,7 +20,7 @@ export default function Hero() {
             <Button size="lg" asChild className="shadow-glow-primary transition-all hover:scale-105">
               <Link href="#projects">View My Work</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="transition-all hover:scale-105 hover:bg-accent/20">
+            <Button size="lg" variant="outline" asChild className="transition-all hover:scale-105">
               <Link href="#contact">
                 Contact Me <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

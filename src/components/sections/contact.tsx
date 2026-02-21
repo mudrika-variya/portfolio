@@ -20,17 +20,17 @@ export default function Contact() {
               Have a project in mind or just want to say hi? Feel free to reach out. You can also find me on these platforms:
             </p>
             <div className="flex gap-4">
-              <Button asChild variant="outline" size="icon" className="h-12 w-12 hover:bg-accent/20">
+              <Button asChild variant="outline" size="icon" className="h-12 w-12">
                 <Link href="mailto:mudrika.variya.dev@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                   <Mail className="h-6 w-6" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="icon" className="h-12 w-12 hover:bg-accent/20">
+              <Button asChild variant="outline" size="icon" className="h-12 w-12">
                 <Link href="https://linkedin.com/in/mudrika-variya" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-6 w-6" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="icon" className="h-12 w-12 hover:bg-accent/20">
+              <Button asChild variant="outline" size="icon" className="h-12 w-12">
                 <Link href="https://github.com/mudrika-variya" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-6 w-6" />
                 </Link>
