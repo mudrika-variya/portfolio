@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import AnimatedTyping from '@/components/ui/animated-typing';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
@@ -9,10 +8,11 @@ export default function Hero() {
       <div className="absolute top-0 left-0 -z-10 h-full w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,hsl(var(--primary)/0.2),rgba(255,255,255,0))]"></div>
       <div className="container mx-auto px-4 md:px-6 text-center">
         <div className="mx-auto max-w-4xl">
-          <AnimatedTyping
-            text="Building High-Performance Mobile Apps with Flutter"
+          <h1
             className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl !leading-tight"
-          />
+          >
+            Building High-Performance Mobile Apps with Flutter
+          </h1>
           <p className="mt-6 text-lg text-muted-foreground md:text-xl">
             Flutter & FlutterFlow Developer with 3+ years of experience delivering scalable and pixel-perfect applications.
           </p>

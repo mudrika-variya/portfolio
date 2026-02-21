@@ -18,9 +18,9 @@ export default function Services() {
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Services I Offer</h2>
           <p className="mt-4 text-lg text-muted-foreground">How I can help bring your vision to life.</p>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-wrap justify-center gap-6">
           {services.map((service) => (
-            <div key={service.title} className="flex items-start gap-4 p-6 rounded-lg border border-transparent hover:bg-card/60 hover:border-border/50 transition-all">
+            <div key={service.title} className="flex items-start gap-4 p-6 rounded-lg border border-transparent hover:bg-card/60 hover:border-border/50 transition-all basis-[350px] max-w-full">
               <div className="text-primary mt-1">{service.icon}</div>
               <div>
                 <h3 className="text-lg font-bold mb-1">{service.title}</h3>
