@@ -1,0 +1,15 @@
+import * as React from 'react';
+
+export function CanvaLogo({ className }: { className?: string }) {
+  return (
+    <svg
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      className={className}
+    >
+      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.2 13.2a1.2 1.2 0 110-2.4 1.2 1.2 0 010 2.4zm0-4.8a1.2 1.2 0 110-2.4 1.2 1.2 0 010 2.4zm4.8 4.8a1.2 1.2 0 110-2.4 1.2 1.2 0 010 2.4z" />
+    </svg>
+  );
+}
