@@ -4,8 +4,9 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Code } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { FlutterLogo } from '@/components/ui/flutter-logo';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -48,7 +49,7 @@ export default function Header() {
       <div className="relative">
         <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
           <Link href="#hero" className="flex items-center gap-2 text-xl font-bold" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <Code className="h-7 w-7 text-primary" />
+            <FlutterLogo className="h-7 w-7" />
             <span className='font-headline'>Mudrika Variya</span>
           </Link>
 
@@ -74,7 +75,7 @@ export default function Header() {
               <SheetContent side="right">
                 <div className="grid gap-6 p-6">
                   <Link href="#hero" className="flex items-center gap-2 text-2xl font-bold" onClick={(e) => { e.preventDefault(); closeSheet(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-                    <Code className="h-7 w-7 text-primary" />
+                    <FlutterLogo className="h-7 w-7" />
                     <span className='font-headline'>Mudrika</span>
                   </Link>
                   <nav className="grid gap-4">
