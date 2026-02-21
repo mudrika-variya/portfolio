@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="mx-auto max-w-4xl">
           <AnimatedTyping
             text="Building High-Performance Mobile Apps with Flutter"
-            className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl !leading-tight"
+            className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl !leading-tight"
           />
           <p className="mt-6 text-lg text-muted-foreground md:text-xl">
             Flutter & FlutterFlow Developer with 3+ years of experience delivering scalable and pixel-perfect applications.
