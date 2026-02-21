@@ -39,7 +39,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 sm:py-32">
+    <section id="projects" className="py-16 sm:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Featured Projects</h2>

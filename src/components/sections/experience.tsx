@@ -30,7 +30,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 sm:py-32">
+    <section id="experience" className="py-16 sm:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Work Experience</h2>
