@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "Mockup of a fitness app",
+      "imageUrl": "https://images.unsplash.com/photo-1769893841740-fc98ce39a3cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcHAlMjBmaXRuZXNzfGVufDB8fHx8MTc3MTY3MDg0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app fitness"
+    },
+    {
+      "id": "project-2",
+      "description": "Mockup of a finance app",
+      "imageUrl": "https://images.unsplash.com/photo-1645226880663-81561dcab0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHAlMjBmaW5hbmNlfGVufDB8fHx8MTc3MTY3MDg0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app finance"
+    },
+    {
+      "id": "project-3",
+      "description": "Mockup of a social media app",
+      "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcHAlMjBzb2NpYWx8ZW58MHx8fHwxNzcxNjcwODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app social"
+    },
+    {
+      "id": "project-4",
+      "description": "Mockup of a travel booking app",
+      "imageUrl": "https://images.unsplash.com/photo-1678667720699-5c0fc04ac166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcHAlMjB0cmF2ZWx8ZW58MHx8fHwxNzcxNjcwODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app travel"
+    }
+  ]
 }
