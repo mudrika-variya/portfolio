@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, FolderGit2 } from 'lucide-react';
 
 const projects = [
   {
@@ -42,12 +42,20 @@ export default function Projects() {
     <section id="projects" className="py-16 sm:py-24 bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Featured Projects</h2>
-          <p className="mt-4 text-lg text-muted-foreground">A selection of my work.</p>
+          <h2 className="inline-flex items-center justify-center gap-3 font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">
+            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary">
+              <FolderGit2 className="h-5 w-5" />
+            </span>
+            Featured Projects
+          </h2>
+          <p className="mt-4 text-lg text-muted-foreground">A selection of apps I’ve designed, built, and shipped.</p>
         </div>
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project) => (
-            <Card key={project.title} className="group overflow-hidden rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm shadow-md transition-all duration-300 hover:border-primary/50 hover:shadow-glow-accent">
+            <Card
+              key={project.title}
+              className="group overflow-hidden rounded-xl border border-border/50 bg-background/50 backdrop-blur-sm shadow-md transition-all duration-300 hover:border-primary/60 hover:shadow-glow-accent hover:-translate-y-2 hover:scale-[1.01]"
+            >
               <div className="relative h-60 overflow-hidden">
                 {project.image && (
                   <Image

@@ -4,10 +4,9 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Github, Linkedin, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { FlutterLogo } from '@/components/ui/flutter-logo';
-import { CanvaLogo } from '@/components/ui/canva-logo';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -62,23 +61,6 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-4">
-             <div className="hidden md:flex items-center gap-2">
-                <Button asChild variant="ghost" size="icon">
-                  <Link href="https://linkedin.com/in/mudrika-variya" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5" />
-                  </Link>
-                </Button>
-                <Button asChild variant="ghost" size="icon">
-                  <Link href="https://github.com/mudrika-variya" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <Github className="h-5 w-5" />
-                  </Link>
-                </Button>
-                <Button asChild variant="ghost" size="icon">
-                  <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Canva">
-                    <CanvaLogo className="h-5 w-5" />
-                  </Link>
-                </Button>
-            </div>
             <Button asChild className="hidden md:flex">
               <Link href="#contact">Contact Me</Link>
             </Button>
@@ -105,25 +87,6 @@ export default function Header() {
                   <Button asChild>
                     <Link href="#contact" onClick={closeSheet}>Contact Me</Link>
                   </Button>
-                  <div className='border-t border-border pt-6 mt-6'>
-                    <div className="flex justify-center gap-4">
-                       <Button asChild variant="outline" size="icon">
-                        <Link href="https://linkedin.com/in/mudrika-variya" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                          <Linkedin className="h-5 w-5" />
-                        </Link>
-                      </Button>
-                       <Button asChild variant="outline" size="icon">
-                        <Link href="https://github.com/mudrika-variya" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                          <Github className="h-5 w-5" />
-                        </Link>
-                      </Button>
-                      <Button asChild variant="outline" size="icon">
-                        <Link href="#" target="_blank" rel="noopener noreferrer" aria-label="Canva">
-                          <CanvaLogo className="h-5 w-5" />
-                        </Link>
-                      </Button>
-                    </div>
-                  </div>
                 </div>
               </SheetContent>
             </Sheet>

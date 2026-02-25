@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Smartphone, Server, Layers, Zap, Settings2, PanelsTopLeft } from "lucide-react";
+import { Smartphone, Server, Layers, Zap, Settings2, PanelsTopLeft, Sparkles } from "lucide-react";
 
 const skillCategories = [
   {
@@ -39,7 +39,12 @@ export default function Skills() {
     <section id="skills" className="py-16 sm:py-24 bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Core Skills</h2>
+          <h2 className="inline-flex items-center justify-center gap-3 font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">
+            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary">
+              <Sparkles className="h-5 w-5" />
+            </span>
+            Core Skills
+          </h2>
           <p className="mt-4 text-lg text-muted-foreground">A snapshot of my technical capabilities.</p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

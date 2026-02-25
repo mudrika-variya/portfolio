@@ -3,27 +3,27 @@ const experiences = [
     company: "YohoSys",
     duration: "1 Year 3 Months",
     contributions: [
-      "Led development of multiple Flutter applications from concept to deployment.",
-      "Implemented complex UI/UX designs with a focus on pixel-perfection.",
-      "Managed state using Bloc and Riverpod for scalable and maintainable codebases."
+      "Led development of multiple Flutter applications from concept to deployment, collaborating closely with designers and backend teams.",
+      "Implemented complex, pixel-perfect UI/UX that matched Figma designs and improved user engagement.",
+      "Introduced Bloc and Riverpod for scalable state management, reducing bugs and simplifying feature delivery."
     ]
   },
   {
     company: "Emperic Infotech",
     duration: "4 Months",
     contributions: [
-      "Contributed to the development of a large-scale e-commerce app.",
-      "Optimized app performance, reducing load times by 20%.",
-      "Integrated various third-party APIs for payments and logistics."
+      "Contributed to a large-scale e-commerce app used by thousands of users.",
+      "Optimized app performance, reducing critical screen load times by ~20%.",
+      "Integrated secure payment and logistics APIs to support end-to-end order flows."
     ]
   },
   {
     company: "Quad Softtech",
     duration: "1.4 Years",
     contributions: [
-      "Developed and maintained hybrid mobile applications for Android and iOS.",
-      "Worked in an Agile team, participating in sprints and code reviews.",
-      "Refactored legacy code to improve performance and readability."
+      "Developed and maintained hybrid mobile applications for Android and iOS across multiple client projects.",
+      "Worked within Agile sprints, actively participating in planning, reviews, and code reviews.",
+      "Refactored legacy codebases to improve performance, readability, and long-term maintainability."
     ]
   }
 ];
@@ -33,8 +33,14 @@ export default function Experience() {
     <section id="experience" className="py-16 sm:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">Work Experience</h2>
-          <p className="mt-4 text-lg text-muted-foreground">My professional journey as a developer.</p>
+          <h2 className="inline-flex items-center justify-center gap-3 font-headline text-3xl font-bold tracking-tight sm:text-4xl text-primary">
+            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary text-sm">
+              {/* briefcase icon style circle */}
+              &#128188;
+            </span>
+            Work Experience
+          </h2>
+          <p className="mt-4 text-lg text-muted-foreground">How I’ve helped teams ship and scale real-world apps.</p>
         </div>
         <div className="relative max-w-2xl mx-auto">
           <div className="absolute left-4 top-0 h-full w-0.5 bg-border -translate-x-1/2"></div>
