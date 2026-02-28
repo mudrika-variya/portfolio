@@ -23,7 +23,7 @@ const projects = [
     ],
     tech: ["Flutter", "Firebase", "REST API Integration", "JSON Parsing", "SQLite"],
     image: PlaceHolderImages.find((img) => img.id === "project-1"),
-    link: "#",
+    link: "https://github.com/mudrika-variya/mudrika-variya/blob/main/PROJECTS.md",
   },
   {
     title: "Weather Application",
@@ -40,7 +40,7 @@ const projects = [
     ],
     tech: ["Flutter", "Firebase", "OpenWeatherMap API", "Google Maps API"],
     image: PlaceHolderImages.find((img) => img.id === "project-2"),
-    link: "#",
+    link: "https://github.com/mudrika-variya/mudrika-variya/blob/main/PROJECTS.md",
   },
   {
     title: "Tile Match Master",
@@ -57,7 +57,7 @@ const projects = [
     ],
     tech: ["Flutter", "SharedPreferences", "Google AdMob", "Figma"],
     image: PlaceHolderImages.find((img) => img.id === "project-3"),
-    link: "#",
+    link: "https://github.com/mudrika-variya/mudrika-variya/blob/main/PROJECTS.md",
   },
   {
     title: "MediBridge",
@@ -74,7 +74,7 @@ const projects = [
     ],
     tech: ["FlutterFlow", "Firebase", "REST APIs", "Razorpay", "Figma"],
     image: PlaceHolderImages.find((img) => img.id === "project-4"),
-    link: "#",
+    link: "https://github.com/mudrika-variya/mudrika-variya/blob/main/PROJECTS.md",
   },
 ];
 
