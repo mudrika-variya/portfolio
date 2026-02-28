@@ -72,7 +72,7 @@ const projects = [
       "Razorpay payment gateway integration",
       "GST taxation and shipping management",
     ],
-    tech: ["Flutter", "Firebase", "REST APIs", "Razorpay", "Figma"],
+    tech: ["FlutterFlow", "Firebase", "REST APIs", "Razorpay", "Figma"],
     image: PlaceHolderImages.find((img) => img.id === "project-4"),
     link: "#",
   },
