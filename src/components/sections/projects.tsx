@@ -139,7 +139,7 @@ export default function Projects() {
                   </div>
                   <div className="mt-3">
                     <Button asChild size="sm" variant="outline" className="text-xs">
-                      <Link href={project.link}>
+                      <Link href={project.link} target="_blank" rel="noopener noreferrer">
                         View Project <ExternalLink className="ml-2 h-3 w-3" />
                       </Link>
                     </Button>
